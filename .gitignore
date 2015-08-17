@@ -1,0 +1,6 @@
+#ignore following files
+*.class
+*.pdf
+*.rtf
+*.txt
+*.db
