@@ -20,3 +20,8 @@ Files Associated
 <i><b>BinomialHeapNode.java </b></i> : The class implements a Binomial Node. The attributes are the data element, link to the next Binomial node in the circular linked list and the link to one of the child node of this binomial node. It also contains a degree field which denotes the number of children of this binomial node. <br><br><br>
 <i><b> BinomialHeap.java</b></i> : This class implements a Min Binomial Heap. It provides a linked heap structure using Binomial Node object to store the elements. Insert and DeleteMin are the two important functions which have been implemented. <br><br><br>
 <i><b> ListNode.java</b></i>: This class describes the LinkedList node structure. It stores data and provides link to its immediate next.<br><br><br>
+
+
+Observations
+============
+Overall, the Min Leftist Tree data structure handles the inserts and delete minimums efficiently for the data sets we used. Though Min Binomial Heap would perform well in case of only insertions (O(1)), in a random sequence of operations consisting of insertions/delete mins, slowly the time consumed would rise as the data structure grows. In comparison, Min Leftist Tree shows a slower and robust growth in time consumption per operation with the increment in data in the data structure.
